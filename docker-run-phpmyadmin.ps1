@@ -1,0 +1,1 @@
+docker run --name badminton-db-phpmyadmin -d --link badminton-db:db -p 8001:80 phpmyadmin/phpmyadmin

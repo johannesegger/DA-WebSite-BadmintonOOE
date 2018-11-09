@@ -1,0 +1,1 @@
+docker run -d --name badminton --link badminton-db:db -p 8000:80 -v "${pwd}:/var/www/html" badminton

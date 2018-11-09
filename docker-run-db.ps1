@@ -1,0 +1,1 @@
+docker run -d --name badminton-db -e MYSQL_ROOT_PASSWORD=1234 -v "${pwd}\backup\dbbu_D2018-10-29.sql:/src/backup.sql" mysql:5
